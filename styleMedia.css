@@ -1,0 +1,64 @@
+@media only screen and (max-width:950px){
+  .imgCircle{
+    display: none;
+  }
+
+  .titleTextContainer, .PATH, .pip, .installingPython, .atomText, .explaination{
+    width:80%;
+  }
+
+  .coding, .instalation, .pointsPython{
+    flex-direction: column-reverse;
+  }
+  .instalation, .pipAndPATH{
+    align-items: center;
+  }
+  .atomContainer, .pipAndPATH{
+    flex-direction: column;
+  }
+
+  .explaination, .atomText{
+    margin-bottom:50px;
+  }
+
+  .chartWhyPython{
+    width:90%;
+  }
+
+  img{
+    width:90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width:750px){
+  .stepsAtomIde{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:550px){
+
+  .code{
+    width:350px;
+  }
+
+  .atomIde{
+    width: 90%;
+    margin: auto;
+  }
+
+  .installingAtom{
+    text-align:center;
+  }
+
+  .installingAtom ol{
+        list-style-position: inside;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .code{
+    width:250px;
+  }
+}

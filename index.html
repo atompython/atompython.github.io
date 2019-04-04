@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>How to add python to Atom</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleAtom.css">
+  <link rel="stylesheet" href="styleMedia.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <section name="title" class="title fullHeight">
+    <div class="imgCircle">
+      <img src="img/python.png" alt="" class="titleImg">
+      <img src="img/halfAtom.png" alt="" class="titleImg" id="halfAtom" style="height:72%;">
+    </div>
+    <div class="titleTextContainer">
+      <h1 class="titleTextPresent">Michał Dzierzbicki</h1>
+      <h2 class="titleTextPresent" style="font-size:30px;  margin-bottom:50px; opacity:.6;">presents:</h2>
+      <h1 class="titleTextTopic">how to set an enviroment for two versions of <span style="color:#347D9F;">pyt</span><span style="color:#FFEA44;">hon</span> and add them to the <span style="color:#6FCF97;">atom</span> - code editor.</h1>
+    </div>
+  </section>
+  <section name="python" class="python">
+    <h1 class="subTitle">What is python?</h1>
+    <div class="coding">
+      <div class="code">
+        <p> <span style="color:#b294bb">def</span> <span style="color:#81a2be">function_name</span>():</p>
+        <p class="sublvl1">variable = <span style="color:#de935f;">1</span></p>
+        <p class="sublvl1">variable += <span style="color:#de935f;">1</span></p>
+        <p class="sublvl1"><span style="color:#b294bb">if</span> variable == <span style="color:#de935f;">2</span>:</p>
+        <p class="sublvl2"><span style="color:#b294bb">return</span> variable</p>
+        <p class="sublvl1"><span style="color:#b294bb">else:</span></p>
+        <p class="sublvl2"><span style="color:#b294bb">return</span> <span style="color:#C6CF73;">"not equal 2"</span></p>
+        <br>
+        <p><span style="color:#b294bb">print</span>(<span style="color:#81a2be">function_name</span>())</p>
+      </div>
+      <div class="explaination">
+        <h1 class="titlePrograming">programming language</h1>
+        <hr>
+        <br>
+        <p>Python is an interpreted, high-level, general-purpose programming language. Rather than having all of its functionality built into its core, Python was designed to be highly extensible.</p>
+        <br>
+        <p style="font-weight:bold;">Python core philosophy:</p>
+        <ul>
+          <li>Beautiful is better than ugly</li>
+          <li>Explicit is better than implicit</li>
+          <li>Simple is better than complex</li>
+          <li>Complex is better than complicated</li>
+          <li>Readability counts</li>
+        </ul>
+        <br>
+        <p><a href="https://www.python.org/doc/essays/blurb/" target="_blank">Read more</a></p>
+      </div>
+    </div>
+  </section>
+  <section name="atom" class="atom">
+    <h1 class="subTitle">What is atom?</h1>
+    <div class="atomContainer">
+      <div class="atomText">
+        <h1 class="titleAtom">A hackable text editor for the 21st Century</h1>
+        <hr>
+        <br>
+        <p>Atom is a free, open-source text/source code editor and has been build as an desktop application using web technologies.</p>
+        <br>
+        <p style="font-weight:bold;">Few supported languages:</p>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>C#</li>
+          <li>HTML, JS, CSS</li>
+          <li>JAVA</li>
+          <li>PHP</li>
+          <li>Python</li>
+        </ul>
+        <br>
+        <p><a href="https://atom.io/" target="_blank">Read more</a></p>
+      </div>
+      <img src="img/atomEdytor.png" alt="">
+    </div>
+  </section>
+  <section name="whyPython" class="whyPython">
+    <h1 class="subTitle" style="padding-top:50px;">Why learn Python?</h1>
+    <div class="pointsPython">
+      <img src="img/chart.png" alt="" class="chartWhyPython">
+      <div class="">
+
+        <h1 class="titleAtom">The most popular language</h1>
+        <hr>
+        <br>
+        <ul>
+          <li>Python is a general-purpose language</li>
+          <li>Python Has a Healthy, Active and Supportive Community</li>
+          <li>Python Has Some Great Corporate Sponsors</li>
+          <li>Python Has Big Data</li>
+          <li>Python Has Amazing Libraries</li>
+          <li>Python Is Reliable and Efficient</li>
+          <li>Python Is Accessible</li>
+        </ul>
+        <br>
+        <p><a href="https://www.kdnuggets.com/2017/07/6-reasons-python-suddenly-super-popular.html" target="_blank">Read more</a></p>
+      </div>
+    </div style="padding-bottom:50px;">
+  </section>
+  <section name="howToInstall" class="instalation">
+    <div class="installingPython">
+        <div>
+          <h1 class="subTitle" style="padding-top:50px;">How to install Python enviroment?</h1>
+          <div class="choosePy"> <span id="py3" onclick="py3()" style="background-color: #A62C38; transition:all .5s;">Python 3</span> <span id="py2" onclick="py2()" style="background-color: #d33847; transition:all .5s;">Python 2</span></div>
+            <ol id="instructions" style="opacity:1; transition:all .5s;position:relative;top:0;">
+              <li>Go to the <a href="https://www.python.org/" target="_blank">www.python.org</a></li>
+              <li>In the menu click <a href="https://www.python.org/downloads/" class="downloadHref"><span class="download"> Downloads </span></a></li>
+              <li>Scroll down to the '<span class="specRelease">Looking for a specific release?</span>' table and click on <a href="https://www.python.org/downloads/release/python-373/" style="text-decoration:none;"><span class="downloadBlue">Download</span></a> button with the newest version of Python 3.</li>
+              <li>Scroll down to the '<span class="files">Files</span>' table and in the '<span class="files">Version</span>' column click <a href="https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe" style="text-decoration:none;"><span class="downloadBlueAndYellow">Windows x86-64 executable installer</span></a> or <a href="https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe" style="text-decoration:none;"><span class="downloadBlueAndYellow">Windows x86 executable installer</span></a>(depends on system).</li>
+              <li>Open the downloaded file.</li>
+              <img src="img/py_installer.png" alt="">
+              <li>Select 'Add Python 3.7 to PATH' and click 'Cusomize installation'.</li>
+              <li>Just press 'Next' in the next screen.</li>
+              <img src="img/py_installer2.png" alt="">
+              <li>In ths window we must specify where will the files will we stored. Click 'Browse' and install it in the folder which is most suitable for you.</li>
+              <li>Open cmd and type 'python' to check if the package is correctly installed. (To exit the program enter 'exit()')</li>
+              <li><b>Optional if you are installing two enviroments:</b>
+                <ul>
+                  <li>Go to the Python folder and change the name of the python.exe to python3.exe and go to the 'Scripts' and change name of the pip manager from pip.exe to pip3.exe so it wont interfere with your second enviroment command for the python.</li>
+                </ul>
+              </li>
+            </ol>
+        </div>
+    </div>
+        <div class="installingAtom">
+          <h1 class="subTitle" style="padding-top:50px;">How to install Atom?</h1>
+          <ol>
+            <li>Go to the <a href="https://atom.io/">atom.io</a></li>
+            <li>Click <a href="https://atom.io/download/windows_x64" style="text-decoration: none;"><span class="atomDownloadButton">DOWNLOAD</span></a> </li>
+            <li>Run installator and you're DONE!</li>
+          </ol>
+        </div>
+  </section>
+  <section name="troubleshooting" class="troubleshooting">
+    <h1 class="subTitle" style="padding-top:50px;">Python two enviroments installation troubleshooting</h1>
+    <div class="pipAndPATH">
+      <div class="pip">
+        <h2 class="subLvl2Title" style="padding-top:50px;">Fatal error in launcher: Unable to create process</h2>
+        <ul>
+        <li>The pip packages manager for python has tendency to crash when the two enviroments are installed.</li>
+        <li>My solution to the problem was to upgrade the manager so it will overwrite his default values with new, correct ones using:</li>
+        <li>python -m pip install --upgrade pip</li>
+        <li>or just use pip using workaround</li>
+        <li>'PATH_to_pip'/pip.exe command</li>
+      </ul>
+      </div>
+      <div class="PATH">
+        <h2 class="subLvl2Title" style="padding-top:50px;">'python' is not recognized as an internal or external command, operable program or batch file.</h2>
+        <ul>
+          <li>When you have installed two enviroments the should be 4 new PATH added to the system.
+            <ol>
+              <li>'path_to_the_folder'\Python27\Scripts\</li>
+              <li>'path_to_the_folder'\Python37\Scripts\</li>
+              <li>'path_to_the_folder'\Python37\</li>
+              <li>'path_to_the_folder'\Python27\</li>
+            </ol>
+          </li>
+          <li>The name of the folder might change depending of the version of the Python.</li>
+          <li>How to check if you have all necessary PATHs?
+            <ol>
+              <li>Open 'Computer' -> right click -> Near the bottom of the menu -> 'Properties'</li>
+              <li>On the left -> 'Advanced system settings'</li>
+              <li>Click button 'Environment Variables'</li>
+              <li>In the table "Environment variables for the user" click row entitled "PATH"</li>
+              <li>Check if there are required PATHs, if not add them using button on the right -> "New"</li>
+            </ol>
+          </li>
+          <li>or just use pip using workaround
+            <ol>
+              <li>'PATH_to_pip'/pip.exe command</li>
+            </ol>
+          </li>
+
+      </ul>
+      </div>
+    </div>
+  </section>
+  <section name="atomIDE" class="atomIde">
+    <h1 class="subTitle" style="padding-top:50px;">How to use Python in Atom?</h1>
+    <div class="atomIdeText">
+      <p>Firstly we need to install package which will implement cmd to the Atom</p>
+      <ol class="stepsAtomIde">
+        <div>
+          <li><h2 class="subLvl2Title" style="padding-top:50px;">Open 'Settings'</h2></li>
+          <img src="img/whereSettings.png" alt="">
+        </div>
+        <div>
+          <li><h2 class="subLvl2Title" style="padding-top:50px;">Select 'Install'</h2></li>
+          <img src="img/settingsAtom.png" alt="">
+        </div>
+      </ol>
+      <ol style="list-style-type: none;">
+        <div>
+          <li><h2 class="subLvl2Title" style="padding-top:50px;">Type 'platformio-ide-terminal' and install the first package which pops out.</h2></li>
+          <img src="img/packageIde.png" alt="" style="width:80%; padding:0 10%;">
+        </div>
+        <div>
+          <li><h2 class="subLvl2Title" style="padding-top:50px;">And you're done! Open now your first project and start coding.</h2></li>
+          <img src="img/cmdAtom.png" alt="" style="width:80%; padding:0 10%;">
+        </div>
+      </ol>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>

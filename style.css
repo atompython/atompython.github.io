@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #272727;
+  overflow-y: scroll;
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFF;
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+  color: #FFF;
+}
+
+@font-face {
+  font-family: flux-regular;
+  src: url(fonts/Flux-Regular/Flux-Regular.otf);
+}
+
+@font-face {
+  font-family: SourceSansProBlackItalic;
+  src: url(fonts/SourceSansProBlackItalic/SourceSansProBlackItalic.ttf);
+}
+
+.fullHeight {
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/background-top.png");
+}
+
+.titleImg {
+  position: absolute;
+  height: 70%;
+}
+
+@keyframes rotateAtom {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#halfAtom {
+  animation: rotateAtom 30s linear infinite
+}
+
+.imgCircle {
+  width: 50%;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleTextContainer {
+  width: 40%;
+  z-index: 2;
+}
+
+.titleTextPresent {
+  color: #FFF;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.titleTextTopic {
+  text-align: justify;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #d33847;
+  padding: 20px 40px;
+  border-radius: 2px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+}
+
+/*PYTHON*/
+.python {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #d33847;
+}
+
+.subTitle {
+  color: #FFF;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+  text-transform: uppercase;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.coding {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.code {
+  width: 400px;
+  height: 200px;
+  background-color: #323232;
+  border-radius: 10px;
+  border: 1px solid #4b4b4b;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+  padding: 20px;
+}
+
+.explaination {
+  width: 50%;
+}
+
+.sublvl1 {
+  padding-left: 15px;
+}
+
+.sublvl2 {
+  padding-left: 30px;
+}
+
+.sublvl3 {
+  padding-left: 45px;
+}
+
+.titlePrograming {
+  text-transform: uppercase;
+  margin-left: -20px;
+}
+
+.explaination hr {
+  margin-left: -20px;
+}
+
+.explaination ul {
+  list-style-position: inside;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.explaination p {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.atom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.atomText {
+  width: 30%;
+}
+
+.titleAtom {
+  text-transform: uppercase;
+  margin-left: -20px;
+}
+
+.atomText hr {
+  margin-left: -20px;
+}
+
+.atomContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.atomText ul {
+  list-style-position: inside;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.whyPython {
+  background-color: #d33847;
+}
+
+.pointsPython {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.chartWhyPython {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.whyPython ul {
+  list-style-position: inside;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.whyPython hr {
+  margin-left: -20px;
+}
+
+/*INSTALLING*/
+.instalation {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.instalation ol {
+  margin-left: 10px;
+}
+
+.instalation li {
+  padding-bottom: 10px;
+}
+
+/*PYTHON*/
+
+.installingPython{
+  width:50%;
+}
+
+.choosePy{
+  width:100%;
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.choosePy span{
+  padding:10px 20px;
+  border-radius:2px;
+}
+
+.choosePy span:hover{
+  background-color: #A62C38;
+  cursor: pointer;
+}
+
+.download {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: baseline;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #2d618c;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF3776AB', endColorstr='#FF2D618C');
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(30%, #3776ab), color-stop(95%, #2d618c));
+  background-image: -webkit-linear-gradient(#3776ab 30%, #2d618c 95%);
+  background-image: -moz-linear-gradient(#3776ab 30%, #2d618c 95%);
+  background-image: -o-linear-gradient(#3776ab 30%, #2d618c 95%);
+  background-image: linear-gradient(#3776ab 30%, #2d618c 95%);
+  border-top: 1px solid #629ccd;
+  border-bottom: 1px solid #18334b;
+  padding: 10px 22px;
+  margin-left: 20px;
+}
+
+.download:hover {
+  background-color: #2d618c;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF326B9C', endColorstr='#FF2D618C');
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(10%, #326b9c), color-stop(90%, #2d618c));
+  background-image: -webkit-linear-gradient(#326b9c 10%, #2d618c 90%);
+  background-image: -moz-linear-gradient(#326b9c 10%, #2d618c 90%);
+  background-image: -o-linear-gradient(#326b9c 10%, #2d618c 90%);
+  background-image: linear-gradient(#326b9c 10%, #2d618c 90%);
+  border-top: 1px solid #3776ab;
+  border-bottom: 1px solid #2d618c;
+}
+}
+
+.downloadHref {
+  color: #e6e8ea;
+  background-color: transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  letter-spacing: .01em;
+}
+
+.specRelease{
+font-family: flux-regular,Arial,sans-serif;
+}
+
+.files{
+  font-family: SourceSansProBlackItalic,Arial,sans-serif;
+}
+
+.downloadBlue{
+  color:#3776ab;
+}
+
+.downloadBlueAndYellow{
+  color:#3776ab;
+  border-bottom: 1px solid #ffdf76;
+}
+
+.downloadBlue:hover, .downloadBlueAndYellow:hover{
+  color:#FFF;
+}
